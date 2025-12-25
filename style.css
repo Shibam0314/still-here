@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: radial-gradient(circle at top, #1b1f3b, #000);
+  color: #f5f5f5;
+  overflow-x: hidden;
+}
+
+section {
+  min-height: 100vh;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Landing */
+.landing {
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
+    url("arh.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.panda {
+  font-size: 90px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+button {
+  margin-top: 30px;
+  padding: 12px 30px;
+  background: purple;
+  border: 1px solid #aaa;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+button:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+/* Letters */
+.letters {
+  text-align: center;
+}
+
+.letter {
+  max-width: 600px;
+  margin: 60px auto;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1.2s ease;
+}
+
+.final-btn {
+  margin-top: 80px;
+}
+
+/* Ending */
+.ending {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ending p {
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
+
+.soft {
+  opacity: 0.7;
+  margin-top: 10px;
+}
+.memory-img {
+  width: 200px;
+  max-width: 80%;
+  border-radius: 20px;
+  margin: 40px auto;
+  display: block;
+  box-shadow: 0 0 30px rgba(255,255,255,0.2);
+  opacity: 0.95;
+}
