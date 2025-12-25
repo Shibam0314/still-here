@@ -96,3 +96,29 @@ button:hover {
   box-shadow: 0 0 30px rgba(255,255,255,0.2);
   opacity: 0.95;
 }
+@media (max-width: 600px) {
+
+  h1 {
+    font-size: 1.6rem;
+    padding: 0 10px;
+  }
+
+  .panda {
+    font-size: 70px;
+  }
+
+  .letter {
+    font-size: 1.05rem;
+    margin: 40px 10px;
+  }
+
+  button {
+    padding: 10px 24px;
+    font-size: 0.95rem;
+  }
+
+  .ending p {
+    font-size: 1.1rem;
+    padding: 0 15px;
+  }
+}
