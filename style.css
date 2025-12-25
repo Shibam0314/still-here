@@ -88,13 +88,12 @@ button:hover {
   margin-top: 10px;
 }
 .memory-img {
-  width: 200px;
-  max-width: 80%;
+  width: 90%;
+  max-width: 300px;
+  height: auto;
   border-radius: 20px;
-  margin: 40px auto;
+  margin: 30px auto;
   display: block;
-  box-shadow: 0 0 30px rgba(255,255,255,0.2);
-  opacity: 0.95;
 }
 @media (max-width: 600px) {
 
